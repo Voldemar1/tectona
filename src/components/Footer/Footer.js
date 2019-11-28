@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import './Footer.scss'
 
@@ -15,10 +14,6 @@ const Footer = props => {
       <h6>© {year} Тектона Консалт</h6>
     </div>
   )
-}
-
-Footer.propTypes = {
-
 }
 
 export default Footer
