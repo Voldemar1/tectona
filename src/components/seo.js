@@ -32,7 +32,7 @@ function SEO({ description, lang, meta, title }) {
       htmlAttributes={{
         lang,
       }}
-      title={"Тектона"}
+      title="Тектона"
       // title={title}
       // titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
