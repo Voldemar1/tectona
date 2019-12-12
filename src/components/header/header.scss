@@ -1,23 +1,57 @@
 .header {
-  position: relative;
   display: flex;
-  justify-content: center;
-  padding: 0 20px;
-  height: 200px;
+  justify-content: space-between;
   img {
-    margin-top: 0;
-    position: absolute;
-    background-color: #fff;
-    padding: 0px 20px;
+    max-height: 100%;
+    
   }
 
-  &::before {
-    content:'';
-    display:block;
-    width: 95%;
-    height: 4px;
-    background-color: #000;
-    position: absolute;
-    top:100px;
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
   }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    .phones-block {
+      >div {
+        display: inline-block;
+      }
+      .phones-svg {
+        width: 35px;
+        margin: 2px;
+      }
+      .phones>a {
+        display: block;
+      }
+    }
+    .fax, .mail, .skype {
+      height: 35px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      >img {
+        width: 35px;
+        margin-right: 2px;
+      }
+    }
+  }
+
+  @media (max-width:550px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .contacts {
+      align-items: center;
+  } 
+}
+  @media (max-width:345px) {
+    .phones-block {
+        text-align: center;
+    }
+  } 
 }
