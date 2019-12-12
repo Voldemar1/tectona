@@ -3,4 +3,16 @@ body {
 }
 
 .layout {
+    background-image: linear-gradient(to top right, rgb(255, 255, 255),
+     rgb(252, 246, 250), rgb(249, 238, 245), rgb(247, 229, 239),
+      rgb(244, 220, 234), rgb(241, 211, 229), rgb(238, 203, 224),
+       rgb(235, 194, 219), rgb(232, 185, 214), rgb(230, 176, 208),
+        rgb(227, 168, 203), rgb(224, 159, 198));
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    main {
+        flex-grow: 1;
+    }
 }
