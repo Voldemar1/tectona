@@ -4,7 +4,7 @@
     grid-gap: 10px;
     justify-content: center;
     padding: 0px 15px;
-    .consalting, .trade {
+    .consalting, .trade, .it {
         height: 600px;
         color: white;
         text-decoration: none;
@@ -34,10 +34,14 @@
         &.consalting {
             background-image: url(./images/consalting.jpg);
         }
+
+        &.it {
+            background-image: url(./images/it.jpg);
+        }
     }
 
     @media (max-width:840px) {
-        .consalting, .trade {
+        .consalting, .trade, .it {
             height: 400px;
         }
     }
