@@ -1,18 +1,18 @@
-import React from "react";
+import React from "react"
 
-import Layout from "../components/Layout/Layout";
-import SEO from "../components/seo";
-import Menu from "../components/Menu/Menu";
+import Layout from "../components/Layout/Layout"
+import SEO from "../components/seo"
+import Menu from "../components/Menu/Menu"
 
-import "./index.scss";
+import "./index.scss"
 
 const IndexPage = () => (
   <div className="index">
-    <Layout >
+    <Layout>
       <SEO title="Home" />
       <h2>ГРУППА КОМПАНИЙ "ТЕКТОНА"</h2>
       <Menu />
-  </Layout>
+    </Layout>
   </div>
 )
 
