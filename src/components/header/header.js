@@ -1,10 +1,11 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import "./header.scss"
 
 const Header = props => (
   <div className="header">
-    <img src={require("./images/logo.png")} alt="" />
+    <Link to="/"><img src={require("./images/logo.png")} alt="" /></Link>
     <div className="contacts">
       <div className="phones-block">
         <div>

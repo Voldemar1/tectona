@@ -3,7 +3,6 @@
   justify-content: space-around;
   img {
     max-height: 100%;
-    
   }
 
   a {
@@ -17,41 +16,43 @@
     flex-direction: column;
     padding: 15px;
     .phones-block {
-      >div {
+      > div {
         display: inline-block;
       }
       .phones-svg {
         width: 35px;
         margin: 2px;
       }
-      .phones>a {
+      .phones > a {
         display: block;
       }
     }
-    .fax, .mail, .skype {
+    .fax,
+    .mail,
+    .skype {
       height: 35px;
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      >img {
+      > img {
         width: 35px;
         margin-right: 2px;
       }
     }
   }
 
-  @media (max-width:550px) {
+  @media (max-width: 550px) {
     display: flex;
     flex-direction: column;
     align-items: center;
 
     .contacts {
       align-items: center;
-  } 
-}
-  @media (max-width:345px) {
-    .phones-block {
-        text-align: center;
     }
-  } 
+  }
+  @media (max-width: 345px) {
+    .phones-block {
+      text-align: center;
+    }
+  }
 }
