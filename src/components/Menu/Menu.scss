@@ -1,48 +1,52 @@
 .menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
+  grid-gap: 10px;
+  justify-content: center;
+  padding: 0px 15px;
+  .consalting,
+  .trade,
+  .it {
+    height: 600px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    display: flex;
     justify-content: center;
-    padding: 0px 15px;
-    .consalting, .trade, .it {
-        height: 600px;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-size: cover;
-        padding: 0px 5px;
+    align-items: center;
+    background-size: cover;
+    padding: 0px 5px;
+    border: 3px solid orange;
 
-        h4 {
-            font-size: 32px;
-            border: 5px solid #C0C0C0;
-            background-color: cadetblue;
-            opacity: 0.9;
-            border-radius: 30px;
-            padding: 10px;
-            text-align: center;
-        }
-        
-        &.trade {
-            background-image: url(./images/trade.jpg);
-            
-        }
-
-        &.consalting {
-            background-image: url(./images/consalting.jpg);
-        }
-
-        &.it {
-            background-image: url(./images/it.jpg);
-        }
+    h4 {
+      font-size: 32px;
+      border: 5px solid #c0c0c0;
+      background-color: cadetblue;
+      opacity: 0.9;
+      border-radius: 30px;
+      padding: 10px;
+      text-align: center;
     }
 
-    @media (max-width:840px) {
-        .consalting, .trade, .it {
-            height: 400px;
-        }
+    &.trade {
+      background-image: url(./images/trade.jpg);
     }
+
+    &.consalting {
+      background-image: url(./images/consalting.jpg);
+    }
+
+    &.it {
+      background-image: url(./images/it.jpg);
+    }
+  }
+
+  @media (max-width: 840px) {
+    .consalting,
+    .trade,
+    .it {
+      height: 400px;
+    }
+  }
 }
