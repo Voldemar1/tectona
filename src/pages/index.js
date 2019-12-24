@@ -1,4 +1,3 @@
-require("newrelic")
 import React from "react"
 
 import Layout from "../components/Layout/Layout"
