@@ -23,7 +23,7 @@ function SEO({ description, lang, meta, title }) {
         }
       }
     `
-  ) 
+  )
 
   const metaDescription = description || site.siteMetadata.description
 
@@ -74,7 +74,7 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `ru`,
   meta: [],
   description: ``,
 }
