@@ -1,14 +1,14 @@
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 .layout {
-    background-image: url(../../images/background.jpg);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  background-image: url(../../images/new-background.jpg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
-    main {
-        flex-grow: 1;
-    }
+  main {
+    flex-grow: 1;
+  }
 }
