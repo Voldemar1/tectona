@@ -11,6 +11,17 @@
     font-size: 18px;
   }
 
+  h3 {
+    display: none;
+    background-color: cadetblue;
+    border: 5px solid #c0c0c0;
+    color: white;
+    border-radius: 30px;
+    width: 110px;
+    text-align: center;
+    margin: auto;
+  }
+
   .contacts {
     display: flex;
     flex-direction: column;
@@ -48,6 +59,10 @@
 
     .contacts {
       align-items: center;
+    }
+
+    h3 {
+      display: block;
     }
   }
   @media (max-width: 345px) {
