@@ -19,26 +19,32 @@ const Header = function() {
           <div className="contacts">
             <div className="phones-block">
               <div>
-                <img
-                  className="phones-svg"
-                  src={require("./images/telegram.svg")}
-                  alt=""
-                />
-                <img
-                  className="phones-svg"
-                  src={require("./images/whatsapp.svg")}
-                  alt=""
-                />
-                <img
-                  className="phones-svg"
-                  src={require("./images/viber.svg")}
-                  alt=""
-                />
-                <img
+                <a href="tg://resolve?domain=valentin041">
+                  <img
+                    className="phones-svg"
+                    src={require("./images/telegram.svg")}
+                    alt=""
+                  />
+                </a>
+                <a href="https://wa.me/375293361533" target="_blank">
+                  <img
+                    className="phones-svg"
+                    src={require("./images/whatsapp.svg")}
+                    alt=""
+                  />
+                </a>
+                <a href="viber://add?number=375293361533">
+                  <img
+                    className="phones-svg"
+                    src={require("./images/viber.svg")}
+                    alt=""
+                  />
+                </a>
+                {/* <img
                   className="phones-svg"
                   src={require("./images/phone.svg")}
                   alt=""
-                />
+                /> */}
               </div>
               <div className="phones">
                 <a href="tel:+375293361533">+375-29-336-15-33</a>
