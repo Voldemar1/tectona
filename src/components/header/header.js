@@ -26,7 +26,11 @@ const Header = function() {
                     alt=""
                   />
                 </a>
-                <a href="https://wa.me/375293361533" target="_blank">
+                <a
+                  href="https://wa.me/375293361533"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     className="phones-svg"
                     src={require("./images/whatsapp.svg")}

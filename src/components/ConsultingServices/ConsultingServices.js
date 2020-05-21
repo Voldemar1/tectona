@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 import "./ConsultingServices.scss"
 
@@ -61,7 +60,5 @@ const ConsultingServices = props => {
     </div>
   )
 }
-
-ConsultingServices.propTypes = {}
 
 export default ConsultingServices

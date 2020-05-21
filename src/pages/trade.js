@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 import Layout from "../components/Layout/Layout"
 
 import "./trade.scss"
@@ -192,7 +191,5 @@ const trade = props => {
     </Layout>
   )
 }
-
-trade.propTypes = {}
 
 export default trade

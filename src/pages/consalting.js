@@ -1,19 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-
+import React from "react"
 import ConsaltingServices from "../components/ConsultingServices/ConsultingServices"
-import Layout from '../components/Layout/Layout'
+import Layout from "../components/Layout/Layout"
 
 const consalting = props => {
-    return (
-        <Layout>
-            <ConsaltingServices />
-        </Layout>
-    )
-}
-
-consalting.propTypes = {
-
+  return (
+    <Layout>
+      <ConsaltingServices />
+    </Layout>
+  )
 }
 
 export default consalting

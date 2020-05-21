@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 import Layout from "../components/Layout/Layout"
 
 import "./it.scss"
@@ -50,7 +49,5 @@ const it = props => {
     </Layout>
   )
 }
-
-it.propTypes = {}
 
 export default it
