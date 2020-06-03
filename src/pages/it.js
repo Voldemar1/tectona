@@ -38,7 +38,7 @@ const it = props => {
         <div className="grid">
           {data.map(({ title, desc }) => {
             return (
-              <div className="card">
+              <div className="card" key={title}>
                 <h3>{title}</h3>
                 <h4>{desc}</h4>
               </div>
