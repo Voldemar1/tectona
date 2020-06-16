@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-import './Footer.scss'
+import "./Footer.scss"
 
 const Footer = props => {
   const year =
@@ -8,8 +8,8 @@ const Footer = props => {
       ? 2019
       : `2019 - ${new Date().getFullYear()}`
   return (
-    <div className='footer'>
-      <h5>© {year} Тектона Консалт</h5>
+    <div className="footer">
+      <h5>© {year} Группа компаний Тектона</h5>
     </div>
   )
 }
