@@ -1,25 +1,51 @@
 .trade {
-  padding: 20px 10px;
   h2 {
     text-align: center;
   }
-  .grid {
+  .grid_trade {
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
-    grid-gap: 15px;
-    .card {
-      h3 {
+    grid-gap: 10px;
+    justify-content: center;
+    padding: 0px 15px;
+    .trade,
+    .fish {
+      height: 600px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      padding: 0px 5px;
+      border: 3px solid orange;
+
+      h4 {
+        font-size: 32px;
+        border: 5px solid #c0c0c0;
+        background-color: cadetblue;
+        opacity: 0.9;
+        border-radius: 30px;
+        padding: 10px;
         text-align: center;
       }
-      align-self: start;
-      background-color: white;
-      padding: 15px;
-      border: 3px solid orange;
-      border-radius: 10px;
+
+      &.trade {
+        background-image: url(../images/trade.jpg);
+      }
+
+      &.fish {
+        background-image: url(../images/fish.jpg);
+      }
     }
-    .last {
-      margin-top: 15px;
+
+    @media (max-width: 840px) {
+      .trade,
+      .fish {
+        height: 400px;
+      }
     }
   }
 }
