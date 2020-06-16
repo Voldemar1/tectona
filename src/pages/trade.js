@@ -11,7 +11,7 @@ const trade = props => {
         <h2>Оптовая торговля</h2>
         <div className="grid_trade">
           <Link to="/grain" className="trade">
-            <h4>Комбикорм и дрожжи</h4>
+            <h4>Корма для С/Х животных</h4>
           </Link>
           <Link to="/gorbusha" className="fish">
             <h4>Рыба</h4>
