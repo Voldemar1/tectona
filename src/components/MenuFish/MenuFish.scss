@@ -1,0 +1,16 @@
+.menufish {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 120px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 10px;
+  a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #c0c0c0;
+    background-color: cadetblue;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+  }
+}
