@@ -16,6 +16,7 @@ function MenuFish() {
       <Link to="/cod">Треска</Link>
       <Link to="/whiting">Путассу</Link>
       <Link to="/squid">Кальмар</Link>
+      <Link to="/shrimp">Креветки</Link>
     </div>
   )
 }
