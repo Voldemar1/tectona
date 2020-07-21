@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "../header/header"
+import ContactForm from "../ContactForm/ContactForm"
 import Footer from "../Footer/Footer"
 
 import "./Layout.scss"
@@ -22,6 +23,7 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Header />
       <main>{children}</main>
+      <ContactForm />
       <Footer />
     </div>
   )
