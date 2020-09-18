@@ -9,15 +9,15 @@ import Footer from "../Footer/Footer"
 import "./Layout.scss"
 
 const Layout = ({ children }) => {
-  // useStaticQuery(graphql`
-  //   query SiteTitleQuery {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `)
+  useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
 
   return (
     <div className="layout">
