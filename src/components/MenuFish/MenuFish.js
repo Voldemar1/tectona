@@ -6,6 +6,13 @@ import "./MenuFish.scss"
 function MenuFish() {
   return (
     <div className="menufish">
+      <a
+        href="https://drive.google.com/file/d/1HoCJ2APbw52NDmDCXjHz2Q_DaWmqw_1g/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        ПРАЙС-ЛИСТ
+      </a>
       <Link to="/gorbusha">Горбуша</Link>
       <Link to="/pollock">Минтай</Link>
       <Link to="/herring">Сельдь</Link>

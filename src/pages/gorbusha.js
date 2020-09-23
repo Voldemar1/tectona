@@ -11,7 +11,7 @@ function gorbusha() {
       <div className="gorbusha">
         <div>
           <h4>Горбуша б/г</h4>
-          <p>
+          {/* <p>
             <span>Цена за 1 кг. в бел.руб. без НДС: </span>
             <span>4,48</span>
           </p>
@@ -20,7 +20,7 @@ function gorbusha() {
             <span>Цена за 1 кг. в бел.руб. без НДС: </span>
             <span>6,86</span>
           </p>
-          <h5>НДС 10%</h5>
+          <h5>НДС 10%</h5> */}
           <h5>Фасовка: на паллетах, коробки или пакеты</h5>
         </div>
       </div>
