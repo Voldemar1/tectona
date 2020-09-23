@@ -13,7 +13,7 @@ function grain() {
           target="_blank"
           rel="noreferrer"
         >
-          прайс-лист
+          ПРАЙС-ЛИСТ
         </a>
         <div className="grid">
           <div className="card">
