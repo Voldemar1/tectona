@@ -1,16 +1,29 @@
-.menufish {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 120px);
-  grid-gap: 5px;
-  justify-content: center;
-  margin: 10px;
-  a {
+.menuf {
+  display: flex;
+  flex-direction: column;
+  .price {
     text-decoration: none;
     color: white;
     border: 2px solid #c0c0c0;
-    background-color: cadetblue;
+    background-color: gray;
     border-radius: 30px;
-    padding: 5px;
-    text-align: center;
+    padding: 10px 30px;
+    align-self: center;
+  }
+  .menufish {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 120px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 10px;
+    a {
+      text-decoration: none;
+      color: white;
+      border: 2px solid #c0c0c0;
+      background-color: cadetblue;
+      border-radius: 30px;
+      padding: 5px;
+      text-align: center;
+    }
   }
 }
