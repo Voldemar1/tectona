@@ -8,6 +8,13 @@ function grain() {
     <Layout>
       <div className="grain">
         <h2>Оптовая торговля</h2>
+        <a
+          href="https://drive.google.com/file/d/1oXmZvyHToFFmByYBm9G7ZleQ5hFI73yS/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          прайс-лист
+        </a>
         <div className="grid">
           <div className="card">
             <h3>Комбикорм полнорационный ПК-1-15</h3>
