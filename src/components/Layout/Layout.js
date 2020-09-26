@@ -23,7 +23,6 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Header />
       <main>{children}</main>
-      <ContactForm />
       <Footer />
     </div>
   )
