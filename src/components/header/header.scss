@@ -27,15 +27,11 @@
     flex-direction: column;
     padding: 15px;
     .phones-block {
-      > div {
-        display: inline-block;
-      }
+      display: flex;
+      align-items: center;
       .phones-svg {
         width: 35px;
         margin: 2px;
-      }
-      .phones > a {
-        display: block;
       }
     }
     .fax,

@@ -41,7 +41,6 @@ const Header = function() {
             </div>
             <div className="phones">
               <a href="tel:+375293361533">+375-29-336-15-33</a>
-              <a href="tel:+375293659445">+375-29-365-94-45</a>
             </div>
           </div>
           <a className="fax" href="fax:+375177452349">
