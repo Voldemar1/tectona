@@ -1,11 +1,10 @@
 .menu {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 500px));
   grid-gap: 10px;
   justify-content: center;
   .consalting,
-  .trade,
-  .it {
+  .trade {
     height: 600px;
     color: white;
     text-decoration: none;
@@ -35,16 +34,11 @@
     &.consalting {
       background-image: url(./images/consalting.jpg);
     }
-
-    &.it {
-      background-image: url(./images/it.jpg);
-    }
   }
 
   @media (max-width: 840px) {
     .consalting,
-    .trade,
-    .it {
+    .trade {
       height: 400px;
     }
   }

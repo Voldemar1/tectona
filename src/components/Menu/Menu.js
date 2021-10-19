@@ -12,9 +12,9 @@ const Menu = props => {
       <Link to="/trade" className="trade">
         <h4>Оптовая торговля</h4>
       </Link>
-      <Link to="/it" className="it">
+      {/* <Link to="/it" className="it">
         <h4>IT</h4>
-      </Link>
+      </Link> */}
     </div>
   )
 }
