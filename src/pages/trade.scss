@@ -9,7 +9,7 @@
     justify-content: center;
     padding: 0px 15px;
     .trade,
-    .fish {
+    .fish-menu {
       height: 600px;
       color: white;
       text-decoration: none;
@@ -36,14 +36,14 @@
         background-image: url(../images/trade.jpg);
       }
 
-      &.fish {
+      &.fish-menu {
         background-image: url(../images/fish.jpg);
       }
     }
 
     @media (max-width: 840px) {
       .trade,
-      .fish {
+      .fish-menu {
         height: 400px;
       }
     }
