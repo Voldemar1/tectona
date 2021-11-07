@@ -16,7 +16,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     grid-gap: 5px;
-    margin: 10px;
+    margin: 10px auto;
+    max-width: 1200px;
     .card {
       display: grid;
       align-content: space-between;
