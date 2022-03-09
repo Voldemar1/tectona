@@ -13,9 +13,9 @@ const trade = props => {
           <Link to="/grain" className="trade">
             <h4>Корма для С/Х животных</h4>
           </Link>
-          <Link to="/fish" className="fish-menu">
+          {/* <Link to="/fish" className="fish-menu">
             <h4>Рыба</h4>
-          </Link>
+          </Link> */}
           <Link className="chicken"></Link>
         </div>
       </div>
