@@ -16,7 +16,7 @@ const trade = props => {
           {/* <Link to="/fish" className="fish-menu">
             <h4>Рыба</h4>
           </Link> */}
-          <Link className="biosil"></Link>
+          <Link className="chicken"></Link>
         </div>
       </div>
     </Layout>

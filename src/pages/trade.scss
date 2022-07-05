@@ -10,7 +10,7 @@
     padding: 0px 15px;
     .trade,
     .fish-menu,
-    .biosil {
+    .chicken {
       height: 600px;
       color: white;
       text-decoration: none;
@@ -41,16 +41,15 @@
         background-image: url(../images/fish.jpg);
       }
 
-      &.biosil {
-        background-image: url(../images/bio.png);
-        background-position: center;
+      &.chicken {
+        background-image: url(../images/chicken.jpg);
       }
     }
 
     @media (max-width: 840px) {
       .trade,
       .fish-menu,
-      .biosil {
+      .chicken {
         height: 400px;
       }
     }
