@@ -13,7 +13,7 @@ const trade = props => {
           <Link to="/grain" className="trade">
             <h4>Корма для С/Х животных</h4>
           </Link>
-          <Link to="/fish" className="fish-menu">
+          {/* <Link to="/fish" className="fish-menu">
             <h4>Рыба</h4>
           </Link>
           <Link
@@ -23,7 +23,7 @@ const trade = props => {
             className="biosil"
           >
             <h4>Биологический консервант БИО-СИЛ</h4>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </Layout>
