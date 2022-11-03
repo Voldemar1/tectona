@@ -16,14 +16,14 @@ const trade = props => {
           {/* <Link to="/fish" className="fish-menu">
             <h4>Рыба</h4>
           </Link> */}
-          {/* <Link
+          <Link
             href="https://docs.google.com/file/d/1AIjlzxYTB1kznLYfYKhLQ5oTBR1nWa25/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="biosil"
           >
             <h4>Биологический консервант БИО-СИЛ</h4>
-          </Link> */}
+          </Link>
         </div>
       </div>
     </Layout>
