@@ -9,7 +9,7 @@ const Footer = props => {
       : `2019 - ${new Date().getFullYear()}`
   return (
     <div className="footer">
-      <h5>© {year} Тектона Консалт Агро Аква IT</h5>
+      <h5>© {year} Тектона</h5>
     </div>
   )
 }
