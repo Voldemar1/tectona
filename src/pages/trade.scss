@@ -1,13 +1,35 @@
 .trade {
-  h2 {
     text-align: center;
-  }
+    a {
+      font-size: 26px;
+      border: 5px solid #c0c0c0;
+      background-color: cadetblue;
+      opacity: 0.9;
+      border-radius: 30px;
+      text-decoration: none;
+      padding: 6px 120px;
+      color: white;
+    }
+
   .grid_trade {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
-    grid-gap: 10px;
-    justify-content: center;
-    padding: 0px 15px;
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
+    // grid-gap: 10px;
+    // justify-content: center;
+    margin: 15px auto;
+    max-width: 400px;
+    padding: 0px;
+
+    h4 {
+      font-size: 32px;
+      border: 5px solid #c0c0c0;
+      background-color: cadetblue;
+      opacity: 0.9;
+      border-radius: 30px;
+      padding: 10px;
+      text-align: center;
+    }
+
     .trade,
     .fish-menu,
     .biosil {
@@ -23,15 +45,7 @@
       padding: 0px 5px;
       border: 3px solid orange;
 
-      h4 {
-        font-size: 32px;
-        border: 5px solid #c0c0c0;
-        background-color: cadetblue;
-        opacity: 0.9;
-        border-radius: 30px;
-        padding: 10px;
-        text-align: center;
-      }
+      
 
       &.trade {
         background-image: url(../images/trade.jpg);
