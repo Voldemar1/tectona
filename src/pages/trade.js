@@ -9,13 +9,13 @@ const trade = props => {
     <Layout>
       <div className="trade">
         <h2>Оптовая торговля</h2>
-        <a
+        {/* <a
           href="https://drive.google.com/file/d/1-1tuXkXprxTwsF0DORIc7dSPQdR-Ilyh/edit?usp=share_link&ouid=107365724329502767170&rtpof=true&sd=true"
           target="_blank"
           rel="noreferrer"
         >
           Глицерин
-        </a>
+        </a> */}
         <div className="grid_trade">
           <Link to="/grain" className="trade">
             <h4>Корма для С/Х животных</h4>
