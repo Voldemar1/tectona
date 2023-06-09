@@ -10,6 +10,11 @@
     background-color: rgb(219, 116, 31);
     border-radius: 30px;
     padding: 10px 30px;
+    display: block;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
   }
   .grid {
     display: grid;

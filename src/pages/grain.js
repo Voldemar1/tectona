@@ -15,6 +15,13 @@ function grain() {
         >
           ПРАЙС-ЛИСТ
         </a>
+        <a
+          href="https://drive.google.com/file/d/1-1tuXkXprxTwsF0DORIc7dSPQdR-Ilyh/edit?usp=share_link&ouid=107365724329502767170&rtpof=true&sd=true"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Сертификат глицерин
+        </a>
         <div className="grid">
           {/* <div className="card">
             <h3>Комбикорм полнорационный ПК-1-15</h3>
