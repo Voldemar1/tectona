@@ -15,12 +15,20 @@ function grain() {
         >
           ПРАЙС-ЛИСТ
         </a>
+        <br />
         <a
           href="https://drive.google.com/file/d/1-1tuXkXprxTwsF0DORIc7dSPQdR-Ilyh/edit?usp=share_link&ouid=107365724329502767170&rtpof=true&sd=true"
           target="_blank"
           rel="noreferrer"
         >
           Сертификат глицерин
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1-8hEJyXa6smFQTXCvvNMJxeAO6mpcxHh/edit?usp=sharing&ouid=107365724329502767170&rtpof=true&sd=true"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Сертификат пропиленгликоль
         </a>
         <div className="grid">
           {/* <div className="card">
